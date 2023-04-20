@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     height: 100vb;
-    background-color: rgb(171, 200, 171);
+    background-color: rgb(218, 233, 218);
 }
 
 .logo{
@@ -118,6 +118,7 @@
 
   .Navigate-Page-2{
     text-decoration: none;
+
   }
 
   .images{
@@ -127,18 +128,18 @@
 
 .dashboard-img1{
     width: 30%;
-    /* height: 30%; */
+    border-radius: 7%;
     
 }
 .dashboard-img2{
     width: 30%;
     height: 30%;
-    
+    border-radius: 7%;    
 }
 .dashboard-img3{
     width: 30%;
     height: 30%;
-    
+    border-radius: 7%;    
 }
 
 .dashboard-content{
