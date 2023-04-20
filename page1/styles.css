@@ -116,6 +116,10 @@
     box-shadow: none;
   }
 
+  .Navigate-Page-2{
+    text-decoration: none;
+  }
+
   .images{
     display: flex;
     justify-content: space-evenly;

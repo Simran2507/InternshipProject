@@ -199,7 +199,8 @@ iframe {
     height: 15px;
     width: 350px;
     border: 1px solid rgb(56, 52, 52);
-    background-image: linear-gradient(to right, grey , white);
+    /* background-size: 50% ; */
+    background-image: linear-gradient(to right, rgb(198, 198, 198) 50%, rgb(250, 231, 231) 50%);
 }
 
 .postion-btn{
