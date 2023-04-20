@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vb;
+    background-color: rgb(171, 200, 171);
+}
+
+.logo{
+    width: 40%;
+    height: 17%;
+    margin: 10px 10px 20px 10px;
+}
+.sidebar{
+    flex: 0 0 20%;
+    border-right: 2px solid black;
+}
+.dashboard{
+    flex: 0 0 80%;
+}
+
+.dashboard-Header{
+    display: inline;
+    margin: 0 auto;
+}
+.search-bar{
+  width: 90%;
+  border: 3px solid white;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 10px;
+  outline: none;
+  color: #9DBFAF;
+  margin: 10px 10px 50px 10px; 
+}
+
+.profilePhoto{
+    width: 7%;
+    height: 10%;
+    border-radius: 90%;
+    /* margin-top: 10px; */
+}
+
+.sidebar-button {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+
+  color: #111827;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  width: 120px;
+}
+
+.sidebar-button:hover {
+  background-color: rgb(143, 173, 202);
+}
+
+.sidebar-button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.sidebar-button:focus-visible {
+  box-shadow: none;
+}
+
+.dashboard-button {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: fit-content;
+  }
+  
+  .dashboard-button:hover {
+    background-color: rgb(143, 173, 202);
+  }
+  
+  .dashboard-button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .dashboard-button:focus-visible {
+    box-shadow: none;
+  }
+
+  .images{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.dashboard-img1{
+    width: 30%;
+    /* height: 30%; */
+    
+}
+.dashboard-img2{
+    width: 30%;
+    height: 30%;
+    
+}
+.dashboard-img3{
+    width: 30%;
+    height: 30%;
+    
+}
+
+.dashboard-content{
+    display: flex;
+    justify-content: space-around;
+}
